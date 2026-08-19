@@ -98,8 +98,8 @@ Follow these steps to run the project locally.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/customer-segmentation.git
-   cd customer-segmentation
+   git clone git remote add origin https://github.com/ahmadbinjaffar/Customer-Segmentation-Engine-RFM-ML.git
+   cd Customer-Segmentation-Engine-RFM-ML
    ```
 
 2. **Install dependencies:**
@@ -129,7 +129,7 @@ The interactive Streamlit dashboard provides comprehensive insights across 5 tab
 4. **Customer Lookup:** Deep-dive into individual customer metrics.
 5. **Segment Profiles:** Actionable recommendations for marketing.
 
-*[Screenshot placeholders - add images here]*
+<img width="1366" height="720" alt="Screenshot 2026-08-19 202641" src="https://github.com/user-attachments/assets/5f829e50-1ce1-46f2-a0ae-714b56c181a9" />
 
 ## 9. Testing
 
