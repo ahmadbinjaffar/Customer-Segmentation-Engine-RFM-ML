@@ -197,13 +197,3 @@ customer-segmentation-rfm/
     ├── test_rfm_engine.py           # Unit tests for RFM calculation
     └── test_clustering.py           # Unit tests for ML clustering
 ```
-
----
-
-## 📝 Resume & Portfolio Bullet Points
-
-### Resume Bullet
-> *Built an end-to-end customer segmentation system using RFM analysis and K-Means/DBSCAN clustering on 525K retail transactions (4,312 customers across 37 countries), achieving a 0.53 silhouette score. Deployed an interactive 5-tab Streamlit dashboard with 11 actionable business segments and tailored marketing recommendations.*
-
-### Short Portfolio / LinkedIn Project Description
-> *Customer Segmentation Engine that combines RFM (Recency, Frequency, Monetary) feature engineering with unsupervised machine learning (K-Means and DBSCAN) to classify 4,312 retail customers into 11 actionable business segments. The system processes 525K transactions from the UCI Online Retail II dataset through a modular Python pipeline backed by 16 unit tests. Features an interactive Streamlit dashboard with glassmorphism UI, 3D cluster visualizations, customer lookup tool, and automated marketing strategies.*
