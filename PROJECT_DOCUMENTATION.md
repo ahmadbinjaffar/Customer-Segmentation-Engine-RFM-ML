@@ -1,4 +1,4 @@
-# 🎯 Customer Segmentation Engine (RFM + ML Clustering)
+# Customer Segmentation Engine (RFM + ML Clustering)
 
 ## 📌 Executive Summary
 This project is an **end-to-end Machine Learning and Business Intelligence solution** designed to segment e-commerce customers based on purchasing behavior. 
