@@ -148,12 +148,8 @@ pytest tests/ -v
 - **Real-Time Scoring Pipeline:** Transition from batch processing to real-time event streaming for immediate segment updates.
 - **A/B Testing Integration:** Connect segments directly to an A/B testing platform to measure the impact of segment-specific campaigns.
 
-## 11. License
+## 11. Author & Contributing
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+**Author:** Ahmed Bin Jaffar ahmedbinjaffarpk@gmail.com
 
-## 12. Author & Contributing
-
-**Author:** [Your Name / Portfolio Link]
-
-Contributions are welcome! Please feel free to submit a Pull Request or open an Issue to discuss improvements.
+Contributions are welcome Please feel free to submit a Pull Request or open an Issue to discuss improvements.
