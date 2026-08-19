@@ -1,6 +1,6 @@
 # Customer Segmentation Engine (RFM + ML Clustering)
 
-## 📌 Executive Summary
+## Executive Summary
 This project is an **end-to-end Machine Learning and Business Intelligence solution** designed to segment e-commerce customers based on purchasing behavior. 
 
 Using **525,461 raw transactions** from the **UCI Online Retail II dataset** (spanning 37 countries), the system applies:
@@ -11,7 +11,7 @@ Using **525,461 raw transactions** from the **UCI Online Retail II dataset** (sp
 
 ---
 
-## 💡 Problem Statement & Business Context
+## Problem Statement & Business Context
 
 ### The Challenge
 E-commerce and retail businesses often treat all customers uniformly, leading to ineffective marketing campaigns, high customer acquisition costs, and customer churn. 
@@ -21,7 +21,7 @@ Customer segmentation allows businesses to target high-value customers, re-engag
 
 ---
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 * **Source**: [UCI Machine Learning Repository — Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii)
 * **Dataset Period**: December 1, 2009 – December 9, 2010
@@ -31,7 +31,7 @@ Customer segmentation allows businesses to target high-value customers, re-engag
 
 ---
 
-## 🧹 Data Cleaning Pipeline
+## Data Cleaning Pipeline
 
 Raw retail data contains noise, missing values, cancellations, and data entry errors. The pipeline applies a strict 6-step cleaning process:
 
@@ -53,7 +53,7 @@ Raw retail data contains noise, missing values, cancellations, and data entry er
 
 ---
 
-## 🧮 RFM Feature Engineering & Scoring
+## RFM Feature Engineering & Scoring
 
 RFM measures three core attributes per customer relative to the dataset snapshot date (Max Invoice Date + 1 day):
 
@@ -69,7 +69,7 @@ Each customer receives a score from 1 to 5 for Recency, Frequency, and Monetary 
 
 ---
 
-## 🏷️ Rule-Based Business Segments (11 Categories)
+## Rule-Based Business Segments (11 Categories)
 
 Combining the R Score and FM Score (Average of F and M), customers map into 11 distinct business personas:
 
@@ -89,7 +89,7 @@ Combining the R Score and FM Score (Average of F and M), customers map into 11 d
 
 ---
 
-## 🤖 Unsupervised Machine Learning (Clustering)
+## Unsupervised Machine Learning (Clustering)
 
 To complement rule-based RFM scoring, machine learning identifies natural mathematical groupings in continuous 3D RFM space.
 
@@ -115,7 +115,7 @@ Both algorithms converged on **2 primary macro-clusters** (High-Value Power User
 
 ---
 
-## 💻 Tech Stack & Architecture
+## Tech Stack & Architecture
 
 ```
                                   ┌────────────────────────┐
@@ -159,7 +159,7 @@ Both algorithms converged on **2 primary macro-clusters** (High-Value Power User
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 customer-segmentation-rfm/
